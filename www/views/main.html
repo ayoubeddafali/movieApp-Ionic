@@ -1,0 +1,12 @@
+<ion-view view-title="Search Movie" id="mainView">
+    <ion-content ng-controller="mainCtrl">
+        <div id="list" class="list list-inset">
+            <div class="item item-dark"><b>Enter the Title</b></div>
+            <label class="item item-input item-dark">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" placeholder="Search" ng-model="movieTitle">
+            </label>
+        </div>
+        <a id="searchBtn" href="#/search/{{movieTitle}}" class="button button-full button-balanced">Search</a>
+    </ion-content>
+</ion-view>

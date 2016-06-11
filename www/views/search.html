@@ -1,0 +1,32 @@
+<ion-view  ng-controller="movieCtrl">
+
+
+    <ion-content>
+        <div class="list list-inset">
+
+                <div class="item">
+                    <b>Title : </b> {{movie.Title}}
+                </div>
+            <div class="item">
+               <p style="text-align: center"><img width="80%" id="movieImage" height="250" ng-src="{{movie.Poster}}"  ></p>
+            </div>
+            <div class="item">
+                <b>Genre : </b> {{movie.Genre}}
+            </div>
+            <div class="item item-text-wrap">
+                <b>Plot :</b><p>{{movie.Plot}}</p>
+            </div>
+            <div class="item">
+                <b>Released : </b>{{movie.Released}}
+            </div> <div class="item">
+                <b>Runtime : </b>{{movie.Runtime}}
+            </div>
+            <div class="item">
+                <b>Imdb Rating : </b>{{movie.imdbRating}}
+            </div>
+        </div>
+
+        </div>
+    </ion-content>
+
+</ion-view>

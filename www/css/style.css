@@ -1,0 +1,23 @@
+#movieImage{
+    border: 1px solid grey;
+    margin:auto;
+    border-radius: 9px;
+}
+
+#result{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#searchBtn{
+    margin-top: 20%;
+}
+#list{
+    margin-top: 30%;
+}
+#mainView{
+    background-image: url("../img/dark_wall.png");
+    background-position: center;
+
+
+}
